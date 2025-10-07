@@ -19,7 +19,7 @@ const Hero = () => {
         {/* Right side: Image */}
         <div className="flex-shrink-0 ml-8">
           <img
-            src="/myself.jpeg"
+            src="/site/myself.jpeg"
             alt="Winston"
             className="w-64 h-64 object-cover rounded-full shadow-lg"
           />
@@ -31,7 +31,7 @@ const Hero = () => {
         <ul className="text-lg text-gray-200 list-disc list-inside">
           <li className="text-1xl flex flex-row font-bold">          
             <img
-            src="/uoft.jpeg"
+            src="/site/uoft.jpeg"
             alt="uoft"
             className="w-16 h-16 object-cover rounded shadow-lg mr-4"
           />
