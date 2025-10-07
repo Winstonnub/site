@@ -42,9 +42,29 @@ const Hero = () => {
           </div>
           </li>
           
-          {/* Add more education items as needed */}
+          
         </ul>
       </div>
+          {/* Study Notes Section */}
+        <div className="mt-10">
+          <h2 className="text-2xl font-bold text-white mb-2">Study Notes</h2>
+          <div className="flex flex-row items-center bg-gray-800 rounded-lg p-4 shadow-lg hover:shadow-xl transition">
+            <div className="flex flex-col">
+              <p className="text-lg text-gray-200 mb-1">
+                Explore my university study notes on GitHub:
+              </p>
+              <a
+                href="https://github.com/Winstonnub/studyNotes"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400 font-semibold hover:underline"
+              >
+                github.com/Winstonnub/studyNotes
+              </a>
+            </div>
+          </div>
+        </div>
+
     
     </section>
   );
