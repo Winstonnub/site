@@ -4,9 +4,9 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
         <h1 className="text-xl font-bold text-white"> 👨🏻‍💻 Winston Liang</h1>
         <ul className="flex space-x-6 text-gray-300 font-medium">
-          <li><a href="#about" className="hover:text-blue-400 transition">About</a></li>
-          <li><a href="#projects" className="hover:text-blue-400 transition">Projects</a></li>
-          <li><a href="#contact" className="hover:text-blue-400 transition">Contact</a></li>
+          <li><a href="#Education" className="hover:text-blue-400 transition">About</a></li>
+          <li><a href="https://github.com/Winstonnub" className="hover:text-blue-400 transition">Projects</a></li>
+          <li><a href="Study notes" className="hover:text-blue-400 transition">Contact</a></li>
         </ul>
       </div>
     </nav>
